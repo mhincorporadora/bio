@@ -6,6 +6,8 @@ const buttons = [
   ['agende-visita', 'Agende uma visita', 'https://wa.me/5583987260270?text=Ol%C3%A1!%20Quero%20agendar%20uma%20visita.'],
   ['whatsapp-equipe', 'Fale com a equipe pelo WhatsApp', 'https://wa.me/5583991139391?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20equipe.%0A'],
   ['obras', 'Acompanhe nossas obras', 'https://wa.me/5583991139391?text=Ol%C3%A1!%20Gostaria%20de%20acompanhar%20o%20andamento%20das%20obras'],
+  ['contato-beatriz', 'Entre em contato (Beatriz)', 'https://wa.me/5583998216872'],
+  ['contato-clara', 'Entre em contato (Clara)', 'https://wa.me/message/NRDJFZ63OEFMH1'],
 ];
 const valid = d => /^\d{4}-\d{2}-\d{2}$/.test(d || '');
 const b64 = x => Buffer.from(x).toString('base64url');
